@@ -1,10 +1,11 @@
-This userChrome.css file that you find above will reduce the roundeness of the new firefox look. 
+This `userChrome.css` file reduces the roundness of the new Firefox UI.
 
-Instalation:
-1. put the files in the folder (default path is something like this): 
+**Installation:**
 
-```txt
-C:\Users\YOUR_USERNAME\AppData\Roaming\Mozilla\Firefox\Profiles\SOME_NUMBERS.default-release\chrome
-```
+1. Place the file in your Firefox profile's `chrome` folder. The default path looks something like this:
 
-2. Restart the firefox
+   ```txt
+   C:\Users\YOUR_USERNAME\AppData\Roaming\Mozilla\Firefox\Profiles\SOME_NUMBERS.default-release\chrome
+   ```
+
+2. Restart Firefox.
