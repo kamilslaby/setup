@@ -1,0 +1,39 @@
+/* ==========================================================
+   No rounding
+   ========================================================== */
+:root {
+	--border-radius-xsmall: 0 !important;
+	--border-radius-small: 0 !important;
+	--border-radius-medium: 0 !important;
+	--border-radius-large: 0 !important;
+	--border-radius-xlarge: 0 !important;
+
+	--tab-border-radius: 0 !important;
+	--button-border-radius: 0 !important;
+	--toolbarbutton-border-radius: 0 !important;
+	--card-border-radius: 0 !important;
+	--input-text-border-radius: 0 !important;
+	--menuitem-border-radius: 0 !important;
+	--popup-border-radius: 0 !important;
+	--panel-border-radius: 0 !important;
+	--panel-menuitem-border-radius: 0 !important;
+	--arrowpanel-border-radius: 0 !important;
+	--arrowpanel-menuitem-border-radius: 0 !important;
+}
+
+/* Elements that hardcode their radius instead of using the variables */
+#urlbar,
+#urlbar-background,
+#searchbar,
+.urlbarView-row,
+.urlbarView-row-inner,
+.tab-background,
+.tabbrowser-tab,
+.toolbarbutton-1,
+.bookmark-item,
+menupopup,
+panel,
+menuitem,
+menu {
+	border-radius: 0 !important;
+}
